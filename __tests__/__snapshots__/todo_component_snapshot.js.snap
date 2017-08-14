@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<div
+  className="column"
+>
+  <div
+    className="ui brown card"
+  >
+    <img
+      className="ui image"
+      src="https://www.photos.com/a_photo"
+    />
+    <div
+      className="content"
+    >
+      <div
+        className="header"
+      >
+        Todo
+      </div>
+      <div
+        className="meta"
+      >
+        Project
+      </div>
+      <div
+        className="meta"
+      >
+        Created 
+        a day ago
+      </div>
+    </div>
+    <div
+      className="extra content"
+    >
+      <div>
+        <div
+          className="ui toggle checkbox"
+          style={
+            Object {
+              "marginBottom": "10px",
+            }
+          }
+        >
+          <input
+            defaultChecked={false}
+            name="public"
+            onChange={[Function]}
+            type="checkbox"
+            value="on"
+          />
+          <label>
+            Complete
+          </label>
+        </div>
+        <div
+          className="ui two buttons"
+        >
+          <button
+            className="ui basic green button"
+            onClick={[Function]}
+          >
+            Edit
+          </button>
+          <button
+            className="ui basic red button"
+            onClick={[Function]}
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

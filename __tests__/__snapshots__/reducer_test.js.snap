@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todos reducer should handle TODO_REQUEST 1`] = `
+Object {
+  "error": null,
+  "requesting": true,
+  "todos": Array [],
+}
+`;
+
+exports[`todos reducer should return the initial state 1`] = `
+Object {
+  "error": null,
+  "requesting": false,
+  "todos": Array [],
+}
+`;

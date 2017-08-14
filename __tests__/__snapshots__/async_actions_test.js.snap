@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async actions creates FETCH_TODO_SUCCESS when fetching to-dos has been done 1`] = `
+Array [
+  Object {
+    "todos": Array [
+      Object {
+        "createdAt": "2017-03-02T23:04:38.003Z",
+        "id": 1,
+        "modifiedAt": "2017-03-22T16:44:29.034Z",
+        "project": "Testing",
+        "title": "Example",
+      },
+    ],
+    "type": "FETCH_TODO_SUCCESS",
+  },
+]
+`;

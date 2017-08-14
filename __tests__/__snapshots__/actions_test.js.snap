@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action creators creates CREATE_SUCCESS when creating a to-do was successful 1`] = `
+Array [
+  Object {
+    "todo": Object {
+      "createdAt": "2017-03-02T23:04:38.003Z",
+      "id": 1,
+      "modifiedAt": "2017-03-22T16:44:29.034Z",
+      "project": "Testing",
+      "title": "Example",
+    },
+    "type": "CREATE_SUCCESS",
+  },
+]
+`;
